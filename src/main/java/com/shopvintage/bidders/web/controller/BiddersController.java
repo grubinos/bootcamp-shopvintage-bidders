@@ -2,7 +2,10 @@ package com.shopvintage.bidders.web.controller;
 
 import com.shopvintage.bidders.persistence.entities.Bidder;
 import com.shopvintage.bidders.persistence.repositories.BiddersRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,15 +15,21 @@ import java.util.List;
 @RequestMapping("bidders")
 public class BiddersController {
 
+    private static final Logger LOGGER= LoggerFactory.getLogger(BiddersController.class);
+
     @Autowired
     private BiddersRepository biddersRepository;
 
-//    public BiddersController(BiddersRepository biddersRepository){
-//        this.biddersRepository=biddersRepository;
-//    }
+    @Value("${spring.profiles.active}")
+    private String activeProfile;
+    @Value("${application.parameters.country}")
+    private String country;
 
     @GetMapping
     public List<Bidder> findAll(){
+        LOGGER.info("findAll");
+        LOGGER.info(activeProfile);
+        LOGGER.info(country);
         return this.biddersRepository.findAll();
     }
 
