@@ -1,8 +1,8 @@
+com/shopvintage/bidders/BiddersApplication.java
+ com.shopvintage.bidders.BiddersApplication
+com/shopvintage/bidders/persistence/repositories/BiddersRepository.java
+ com.shopvintage.bidders.persistence.repositories.BiddersRepository
 com/shopvintage/bidders/web/controller/BiddersController.java
  com.shopvintage.bidders.web.controller.BiddersController
 com/shopvintage/bidders/persistence/entities/Bidder.java
  com.shopvintage.bidders.persistence.entities.Bidder
-com/shopvintage/bidders/persistence/repositories/BiddersRepository.java
- com.shopvintage.bidders.persistence.repositories.BiddersRepository
-com/shopvintage/bidders/BiddersApplication.java
- com.shopvintage.bidders.BiddersApplication
