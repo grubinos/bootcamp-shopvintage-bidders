@@ -20,7 +20,7 @@ public class BiddersController {
     @Autowired
     private BiddersRepository biddersRepository;
 
-    @Value("${spring.profiles.active}")
+//    @Value("${spring.profiles.active}")
     private String activeProfile;
     @Value("${application.parameters.country}")
     private String country;
