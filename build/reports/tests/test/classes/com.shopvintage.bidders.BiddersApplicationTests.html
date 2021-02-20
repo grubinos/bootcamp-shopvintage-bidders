@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.181s</div>
+<div class="counter">0.167s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.181s</td>
+<td class="success">0.167s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,22 +87,22 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>18:55:00.787 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-18:55:00.801 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-18:55:00.845 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.shopvintage.bidders.BiddersApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-18:55:00.860 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.shopvintage.bidders.BiddersApplicationTests], using SpringBootContextLoader
-18:55:00.866 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.shopvintage.bidders.BiddersApplicationTests]: class path resource [com/shopvintage/bidders/BiddersApplicationTests-context.xml] does not exist
-18:55:00.867 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.shopvintage.bidders.BiddersApplicationTests]: class path resource [com/shopvintage/bidders/BiddersApplicationTestsContext.groovy] does not exist
-18:55:00.867 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.shopvintage.bidders.BiddersApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-18:55:00.868 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shopvintage.bidders.BiddersApplicationTests]: BiddersApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:55:00.923 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.shopvintage.bidders.BiddersApplicationTests]
-18:55:00.992 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/alfredobenaute/bootcamp/bootcamp-shopvintage-bidders/build/classes/java/main/com/shopvintage/bidders/BiddersApplication.class]
-18:55:00.993 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shopvintage.bidders.BiddersApplication for test class com.shopvintage.bidders.BiddersApplicationTests
-18:55:01.114 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.shopvintage.bidders.BiddersApplicationTests]: using defaults.
-18:55:01.115 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-18:55:01.138 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@50f9c39c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3409d69c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@38a43bbf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3e3df813, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20c6296b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a81b6d9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@43e107f5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@124d92fa, org.springframework.test.context.event.EventPublishingTestExecutionListener@3516ca9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@54313564, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa45eb8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6100d5f4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@693cd959, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@34fb4b0f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@91792b6]
-18:55:01.144 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5834a5f testClass = BiddersApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@738088d3 testClass = BiddersApplicationTests, locations = '{}', classes = '{class com.shopvintage.bidders.BiddersApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@62aec96f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@22b902ba, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@386f56d2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b66ec07, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2f9b3d46, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4642a04d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-18:55:01.182 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+<pre>19:13:43.710 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:13:43.723 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:13:43.753 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.shopvintage.bidders.BiddersApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:13:43.764 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.shopvintage.bidders.BiddersApplicationTests], using SpringBootContextLoader
+19:13:43.767 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.shopvintage.bidders.BiddersApplicationTests]: class path resource [com/shopvintage/bidders/BiddersApplicationTests-context.xml] does not exist
+19:13:43.768 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.shopvintage.bidders.BiddersApplicationTests]: class path resource [com/shopvintage/bidders/BiddersApplicationTestsContext.groovy] does not exist
+19:13:43.768 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.shopvintage.bidders.BiddersApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:13:43.769 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shopvintage.bidders.BiddersApplicationTests]: BiddersApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:13:43.807 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.shopvintage.bidders.BiddersApplicationTests]
+19:13:43.854 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/alfredobenaute/bootcamp/bootcamp-shopvintage-bidders/build/classes/java/main/com/shopvintage/bidders/BiddersApplication.class]
+19:13:43.855 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shopvintage.bidders.BiddersApplication for test class com.shopvintage.bidders.BiddersApplicationTests
+19:13:43.925 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.shopvintage.bidders.BiddersApplicationTests]: using defaults.
+19:13:43.926 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:13:43.940 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@79f42996, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3d4fce62, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3fed681c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8c80d85, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@50283d93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1357c52a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@472ef2d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@f427b91, org.springframework.test.context.event.EventPublishingTestExecutionListener@1e170b4f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3344e332, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3cc0fdc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1fce62c7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@39254f02, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2d6c6667, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4ebd3ef9]
+19:13:43.943 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3029f53c testClass = BiddersApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2100f1a4 testClass = BiddersApplicationTests, locations = '{}', classes = '{class com.shopvintage.bidders.BiddersApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3ae01026, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@11f9924b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4e0af96, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5ce51fb8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@246ce7eb, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@13c7026a], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+19:13:43.970 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -112,21 +112,16 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.3)
 
-2021-02-19 18:55:01.698  INFO 24686 --- [    Test worker] c.s.bidders.BiddersApplicationTests      : Starting BiddersApplicationTests using Java 13.0.1 on Alfredos-MacBook-Pro.local with PID 24686 (started by alfredobenaute in /Users/alfredobenaute/bootcamp/bootcamp-shopvintage-bidders)
-2021-02-19 18:55:01.700  INFO 24686 --- [    Test worker] c.s.bidders.BiddersApplicationTests      : No active profile set, falling back to default profiles: default
-2021-02-19 18:55:02.439  INFO 24686 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-02-19 18:55:02.496  INFO 24686 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
-2021-02-19 18:55:03.174  INFO 24686 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-19 18:55:33.882 ERROR 24686 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2021-02-19 19:13:44.373  INFO 24936 --- [    Test worker] c.s.bidders.BiddersApplicationTests      : Starting BiddersApplicationTests using Java 13.0.1 on Alfredos-MacBook-Pro.local with PID 24936 (started by alfredobenaute in /Users/alfredobenaute/bootcamp/bootcamp-shopvintage-bidders)
+2021-02-19 19:13:44.376  INFO 24936 --- [    Test worker] c.s.bidders.BiddersApplicationTests      : No active profile set, falling back to default profiles: default
+2021-02-19 19:13:44.965  INFO 24936 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-19 19:13:45.007  INFO 24936 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2021-02-19 19:13:45.509  INFO 24936 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-19 19:13:46.558 ERROR 24936 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
-com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host bootcamp-server-bd.database.windows.net,1433, port 1433 has failed. Error: &quot;bootcamp-server-bd.database.windows.net,1433. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.&quot;.
+com.microsoft.sqlserver.jdbc.SQLServerException: The port number bootcamp-server-bd.database.windows.net,1433 is not valid.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2462) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:668) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2695) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2362) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2213) ~[mssql-jdbc-8.4.1.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1950) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1276) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:861) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
@@ -267,20 +262,15 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the ho
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
 
-2021-02-19 18:55:33.935  INFO 24686 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-02-19 18:55:33.984  INFO 24686 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
-2021-02-19 18:55:34.127  INFO 24686 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-02-19 18:55:34.233  INFO 24686 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-19 18:56:04.872 ERROR 24686 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2021-02-19 19:13:46.607  INFO 24936 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-19 19:13:46.655  INFO 24936 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-19 19:13:46.807  INFO 24936 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-19 19:13:46.918  INFO 24936 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-19 19:13:47.930 ERROR 24936 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
-com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host bootcamp-server-bd.database.windows.net,1433, port 1433 has failed. Error: &quot;bootcamp-server-bd.database.windows.net,1433. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.&quot;.
+com.microsoft.sqlserver.jdbc.SQLServerException: The port number bootcamp-server-bd.database.windows.net,1433 is not valid.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2462) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:668) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2695) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2362) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2213) ~[mssql-jdbc-8.4.1.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1950) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1276) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:861) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
@@ -422,16 +412,11 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the ho
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
 
-2021-02-19 18:56:04.883  WARN 24686 --- [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2021-02-19 19:13:47.939  WARN 24936 --- [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
-com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host bootcamp-server-bd.database.windows.net,1433, port 1433 has failed. Error: &quot;bootcamp-server-bd.database.windows.net,1433. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.&quot;.
+com.microsoft.sqlserver.jdbc.SQLServerException: The port number bootcamp-server-bd.database.windows.net,1433 is not valid.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2462) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:668) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2695) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2362) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2213) ~[mssql-jdbc-8.4.1.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1950) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1276) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:861) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
@@ -573,20 +558,15 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the ho
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
 
-2021-02-19 18:56:04.901  INFO 24686 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
-2021-02-19 18:56:05.496  INFO 24686 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-02-19 18:56:05.507  INFO 24686 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-02-19 18:56:05.514  INFO 24686 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-02-19 18:56:36.141 ERROR 24686 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2021-02-19 19:13:47.952  INFO 24936 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2021-02-19 19:13:48.400  INFO 24936 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-19 19:13:48.407  INFO 24936 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-19 19:13:48.411  INFO 24936 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-19 19:13:49.422 ERROR 24936 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
-com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host bootcamp-server-bd.database.windows.net,1433, port 1433 has failed. Error: &quot;bootcamp-server-bd.database.windows.net,1433. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.&quot;.
+com.microsoft.sqlserver.jdbc.SQLServerException: The port number bootcamp-server-bd.database.windows.net,1433 is not valid.
 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:285) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2462) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:668) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2695) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:2362) ~[mssql-jdbc-8.4.1.jre8.jar:na]
-	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:2213) ~[mssql-jdbc-8.4.1.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1950) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1276) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:861) ~[mssql-jdbc-8.4.1.jre8.jar:na]
 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
@@ -720,9 +700,9 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the ho
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
 
-2021-02-19 18:56:36.682  WARN 24686 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-02-19 18:56:36.895  INFO 24686 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-19 18:56:37.260  INFO 24686 --- [    Test worker] c.s.bidders.BiddersApplicationTests      : Started BiddersApplicationTests in 96.066 seconds (JVM running for 97.359)
+2021-02-19 19:13:49.761  WARN 24936 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-19 19:13:49.915  INFO 24936 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-19 19:13:50.235  INFO 24936 --- [    Test worker] c.s.bidders.BiddersApplicationTests      : Started BiddersApplicationTests in 6.257 seconds (JVM running for 7.212)
 </pre>
 </span>
 </div>
@@ -734,7 +714,7 @@ com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the ho
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.2</a> at Feb 19, 2021, 6:56:37 PM</p>
+<a href="http://www.gradle.org">Gradle 6.8.2</a> at Feb 19, 2021, 7:13:50 PM</p>
 </div>
 </div>
 </body>
