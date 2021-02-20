@@ -1,0 +1,2 @@
+com/shopvintage/bidders/BiddersApplicationTests.java
+ com.shopvintage.bidders.BiddersApplicationTests
