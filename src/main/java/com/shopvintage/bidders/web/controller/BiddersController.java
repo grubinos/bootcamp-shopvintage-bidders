@@ -3,6 +3,8 @@ package com.shopvintage.bidders.web.controller;
 import com.shopvintage.bidders.persistence.entities.Bidder;
 import com.shopvintage.bidders.persistence.repositories.BiddersRepository;
 import org.apache.coyote.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
@@ -15,15 +17,14 @@ import java.util.List;
 @RequestMapping("bidders")
 public class BiddersController {
 
+    private static  final Logger LOGGER= LoggerFactory.getLogger(BiddersController.class);
+
     @Autowired
     private BiddersRepository biddersRepository;
 
-//    public BiddersController(BiddersRepository biddersRepository){
-//        this.biddersRepository=biddersRepository;
-//    }
-
     @GetMapping
     public List<Bidder> findAll() {
+        LOGGER.info("findAll");
         return this.biddersRepository.findAll();
     }
 

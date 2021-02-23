@@ -23,3 +23,5 @@ LABEL maintainer="BCP-BOOTCAMP"
 WORKDIR /root/
 COPY --from=BUILD_IMAGE /root/dev/app/build/libs/bootcamp-shopvintage-bidders-*SNAPSHOT.jar /opt/bootcamp-shopvintage-bidders.jar
 CMD ["java","-jar","/opt/bootcamp-shopvintage-bidders.jar"]
+
+
