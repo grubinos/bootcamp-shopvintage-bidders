@@ -23,6 +23,7 @@ dependencies {
 
 	runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
 
+	// Legacy versions
 //	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
